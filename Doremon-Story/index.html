@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" type="image/x-icon" href="./Assests/favicon/favicon.ico">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doraemon & Nobita Story</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: 'Comic Sans MS', cursive;
+  background: url('https://static.vecteezy.com/system/resources/thumbnails/023/976/582/small/a-robo-cat-sitting-on-the-hill-concept-free-vector.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #333;
+}
+
+/* Dark overlay for better visibility */
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+  z-index: -1;
+}
+
+h1 {
+  text-align: center;
+  background: linear-gradient(to right, #007bff, #00c6ff);
+  color: white;
+  padding: 20px;
+  font-size: 32px;
+}
+
+.chapter {
+  padding: 20px;
+}
+
+.chapter h2 {
+  text-align: center;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.panel {
+  background: rgba(255,255,255,0.95);
+  border-radius: 20px;
+  padding: 15px;
+  margin: 25px auto;
+  width: 80%;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.4);
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.panel:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.6);
+}
+
+.panel img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.speech {
+  background: #fff;
+  border-radius: 25px;
+  padding: 12px 18px;
+  margin: 12px auto;
+  display: inline-block;
+  position: relative;
+  max-width: 70%;
+  font-size: 18px;
+}
+
+.speech:after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 25px;
+  border-width: 10px;
+  border-style: solid;
+  border-color: white transparent transparent transparent;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  background: linear-gradient(to right, #007bff, #00c6ff);
+  color: white;
+  font-size: 18px;
+}
+
+/* Music player styling */
+audio {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  z-index: 1000;
+  opacity: 0.8;
+}
+</style>
+</head>
+
+<body>
+
+<!-- 🎵 Background Music -->
+<audio autoplay loop controls>
+  <source src="./Assests/audio/Zindagi Sawar Do Ek Nahi Bahar Do - Doraemon.mp3" type="audio/mpeg">
+</audio>
+
+<h1>🌟 Doraemon & Nobita: True Friendship</h1>
+
+<div class="chapter">
+  <h2>Chapter 1: A Lazy Afternoon</h2>
+  <div class="panel">
+    <img src="Assests/images/image-5.webp">
+    <div class="speech">Doraemon! I failed again 😭</div>
+  </div>
+
+  <div class="panel">
+    <img src="Assests/images/image-6.jpg">
+    <div class="speech">Nobita, you must work hard!</div>
+  </div>
+</div>
+
+<div class="chapter">
+  <h2>Chapter 2: The Gadget</h2>
+  <div class="panel">
+    <img src="Assests/images/image-4.webp">
+    <div class="speech">This is Confidence Booster Light!</div>
+  </div>
+
+  <div class="panel">
+    <img src="Assests/images/image-7.jpg">
+    <div class="speech">Wow! I feel confident!</div>
+  </div>
+</div>
+
+<div class="chapter">
+  <h2>Chapter 3: The Mistake</h2>
+  <div class="panel">
+    <img src="Assests/images/image-3.jpg">
+    <div class="speech">I am the best now!</div>
+  </div>
+</div>
+
+<div class="chapter">
+  <h2>Chapter 4: Lesson</h2>
+  <div class="panel">
+    <img src="Assests/images/image-2.jpg">
+    <div class="speech">I am nothing without gadgets...</div>
+  </div>
+
+  <div class="panel">
+    <img src="Assests/images/image-8.jpg">
+    <div class="speech">You are stronger than you think!</div>
+  </div>
+</div>
+
+<div class="chapter">
+  <h2>Chapter 5: True Friendship</h2>
+  <div class="panel">
+    <img src="Assests/images/image-1.jpg">
+    <div class="speech">I will try on my own!</div>
+  </div>
+
+  <div class="panel">
+    <img src="Assests/images/image-9.jpg">
+    <div class="speech">Thank you Doraemon ❤️</div>
+  </div>
+</div>
+
+<div class="footer">
+  💙 Moral: Believe in yourself & work hard 💙
+</div>
+
+</body>
+</html>

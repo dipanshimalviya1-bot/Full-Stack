@@ -1,0 +1,14 @@
+table, th, td{
+            border: 2px solid black;
+            /* border-style: dashed; */
+            border-collapse: collapse;
+            background-color: aqua;
+            border-width: 2px;
+            margin: 5px;
+            padding: 5px;
+            border-top: 2px;
+            border-left: 2px;
+            border-bottom: 2px;
+            border-right: 2px;
+            display: none;
+}
