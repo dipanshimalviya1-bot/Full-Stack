@@ -1,0 +1,7 @@
+diff of display none & visibility hidden
+=> display none krne pr gap mantain nhi ho rha tha or visibility hidden krne pr gap maintain ho rha h
+div ke element badhenge to div ka size / background color by defult margin badhega
+combinators 3 types ke hote h => 1. disendent(>)sare me lagta h  2. plus(+)just bad kam krta h 3. similar(~)bad me kam krta h jitne bhi <p> ho 
+linear-gradient => to top, bottom, left, right, degree, ka use krte hidden
+radial-gradient => isme %, repeating,
+.item*4 => se div banege 

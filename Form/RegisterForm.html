@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-image: url(https://img.freepik.com/free-vector/gradient-abstract-background-with-shapes_23-2149008486.jpg?semt=ais_incoming&w=740&q=80);
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        form {
+            padding: 20px;
+            box-shadow: 0 0 20px 0 rgb(0, 0, 0);
+        }
+
+        lebel, input {
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <h1>Register Form</h1>
+        <lebel>Full Name:</lebel>
+        <input type="text" placeholder="Enter your Name.........."/><br>
+
+        <lebel>Gender:</lebel>
+        <lebel>Male:</lebel>
+        <input type="radio" name="gender" value="Male"/>
+        <lebel>Female:</lebel>
+        <input type="radio" name="gender" value="Female"/>
+        <lebel>Others:</lebel>
+        <input type="radio" name="gender" value="Others"/><br>
+
+        <lebel>Age:</lebel>
+        <input type="range" /><br>
+
+        <lebel>City:</lebel>
+        <input type="text" placeholder="Enter your City.........."/><br>
+
+        <lebel>Email:</lebel>
+        <input type="text" placeholder="Enter Email Id.........."/><br>
+
+        <lebel>Password:</lebel>
+        <input type="text" placeholder="Enter your Password.........."/><br>
+
+        <button type="Submit" onclick="Register()">Register</button>
+    </form>
+</body>
+</html>

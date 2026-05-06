@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKir_C1aldmePj7BC2xxot03qX-_Ag2_rd1LBLWocgcw&s);
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        form {
+            padding: 20px;
+            box-shadow: 0 0 10px 0 rgb(0, 0, 0);
+            
+            
+        }
+        lebel, input {
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <h1>Student Register Form</h1>
+        <lebel>Roll No:</lebel>
+        <input type="text" placeholder="Enter Your Roll No......"/><br>
+
+        <lebel>Student Name:</lebel>
+        <input type="text" placeholder="First Name......"/>
+        <input type="text" placeholder="Last Name......"/><br>
+
+        <lebel>Father Name:</lebel>
+        <input type="text" placeholder="Enter Father Name......"/><br>
+
+        <lebel>Date Of Birth:</lebel>
+        <input type="date"/><br>
+
+        <lebel>Mobile No:</lebel>
+        <input type="text" placeholder="Enter Mobile No......"/><br>
+        
+        <lebel>Email Id:</lebel>
+        <input type="text" placeholder="Enter Email Id......"/><br>
+
+        <lebel>Password:</lebel>
+        <input type="text" placeholder="Enter Your Password......"/><br>
+
+        <lebel>Gender:</lebel>
+        <lebel>Male:</lebel>
+        <input type="radio" name="gender" value="Male"/>
+        <lebel>Female:</lebel>
+        <input type="radio" name="gender" value="Female"/>
+        <lebel>Others:</lebel>
+        <input type="radio" name="gender" value="Others"/><br>
+
+        <lebel>Age:</lebel>
+        <input type="range"/><br>
+
+        <lebel>Department:</lebel>
+        <lebel>CSE:</lebel>
+        <input type="radio" value="CSE"/>
+        <lebel>ESE:</lebel>
+        <input type="radio" value="ESE"/>
+        <lebel>Civil:</lebel>
+        <input type="radio" value="Civil"/>
+        <lebel>IT:</lebel>
+        <input type="radio" value="IT"/><br>
+
+        <lebel>Course:</lebel>
+        <select>
+            <option>Select Course</option>
+            <option>PHP</option>
+            <option>Python</option>
+            <option>Java</option>
+            <option>C#</option>
+            <option>C++</option>
+            <option>Html</option>
+            <option>Node</option>
+            <option>MangoDB</option>
+            <option>React</option>
+        </select><br>
+
+        <lebel>Student Photo:</lebel>
+        <input type="file"/><br>
+
+        <lebel>City:</lebel>
+        <select>
+            <option>Select City</option>
+            <option>Bhopal</option>
+            <option>Indore</option>
+            <option>Gwalior</option>
+            <option>Sagar</option>
+            <option>Jabalpur</option>
+            <option>Ujjain</option>
+            <option>Dewas</option>
+            <option>Riwa</option>
+            <option>Betul</option>
+        </select><br>
+
+        <lebel>Address:</lebel>
+        <input type="text" placeholder="Enter Your Address......"/><br>
+
+        <button type="submit" onclick="Register()">Register</button>
+
+    </form>
+</body>
+</html>

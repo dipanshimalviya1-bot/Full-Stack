@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+        }
+
+        .container {
+            display: flex;
+            gap: 50px;
+            padding: 15px;
+            overflow-x: auto;
+            margin-left: 100px;
+        }
+        .story{
+            text-align: center;
+            width: 80px;
+        }
+        .your-story {
+            height: 95px;
+            width: 95px;
+            padding: 3px;
+            background: linear-gradient(rgb(66, 12, 167), black);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            position: fixed;
+            left: 15px;
+            top: 15px;
+            z-index: 10; 
+            gap: 30px;
+        }
+        
+
+        .story-ring {
+            height: 75px;
+            width: 75px;
+            padding: 3px;
+            gap: 30px;
+            background: linear-gradient(rgb(66, 12, 167), black);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            position: sticky;
+        }
+        .story-ring seen{
+            background: gray;
+            animation: none;
+        }
+        img{
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            border: 3px solid black;
+        }
+        p{
+            font-size: 12px;
+            margin-top: 6px;
+        }
+        .add-btn{
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            background: blue;
+            color: white;
+            border-radius: 50%;
+            font-size: 14px;
+            width: 20px;
+            height: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 2px solid black;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="story">
+            <div class="your-story">
+                <img src="https://c4.wallpaperflare.com/wallpaper/569/651/684/beautiful-girl-pic-1920x1080-wallpaper-preview.jpg">
+                <span class="add-btn">+</span>
+            </div>
+            
+        </div>
+        <div class="story">
+            <div class="story-ring">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRa18Kx8ayIe2kQotCZuRF6ZjNfcMN9z_k5_g&s">
+            </div>
+        
+        </div>
+        <div class="story">
+            <div class="story-ring">
+                <img src="https://static.vecteezy.com/system/resources/thumbnails/057/162/718/small/adorable-golden-retriever-puppy-playing-in-a-sunny-yellow-flower-meadow-photo.jpeg">
+            </div>
+
+        </div>
+        <div class="story">
+            <div class="story-ring">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeC0nnCn1t-EBtutcJXsz4W0Z5qQbWL4yOug&s">
+            </div>
+            
+        </div>
+        <div class="story">
+            <div class="story-ring">
+                <img src="https://img.freepik.com/premium-photo/red-yellow-leaf-that-is-reflecting-water-surface_1267893-21099.jpg?semt=ais_hybrid&w=740&q=80">
+            </div>
+            
+        </div>
+        <div class="story">
+            <div class="story-ring">
+                <img src="https://static.vecteezy.com/system/resources/thumbnails/052/248/075/small/peacock-feather-wallpaper-hd-wallpaper-photo.jpeg">
+            </div>
+            
+        </div>
+        <div class="story">
+            <div class="story-ring">
+                <img src="https://wallpapers.com/images/hd/bubble-full-screen-hd-desktop-n7n08rrgcei7kigb.jpg">
+            </div>
+            
+        </div>
+        <div class="story">
+            <div class="story-ring">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdzKGJUiIwhNWkGHIP2QJ73EJlb4uiMWDbYQ&s">
+            </div>
+            
+        </div>
+        <div class="story">
+            <div class="story-ring">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrSSJiN8HZhWtwNusoNDebagE12oA4ezSwmA&s">
+            </div>
+            
+        </div>
+        <div class="story">
+            <div class="story-ring">
+                <img src="https://cdn.wallpapersafari.com/76/4/gd0v14.jpg">
+            </div>
+            
+        </div>
+        <div class="story">
+            <div class="story-ring">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIQsb-UrObnuN9gBjCP4gll3vPv2NHKM3u-w&s">
+            </div>
+            
+        </div>
+        <div class="story">
+            <div class="story-ring">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8TGNfnuHPmpWPxbNmjtvybhdHwuNNIJB1cg&s">
+            </div>
+            
+        </div>
+
+        <div class="story">
+            <div class="story-ring seen">
+                <img src="https://m.media-amazon.com/images/I/81NKawleDpL._AC_UF894,1000_QL80_.jpg">
+            </div>
+        
+        </div>
+
+    </div>
+
+</body>
+
+</html>

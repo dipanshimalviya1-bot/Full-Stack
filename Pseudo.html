@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* p{
+            display: block;
+        } */
+        button {
+            background-color: aqua;
+        }
+
+        button:hover + p{
+            font-size: 40px;
+            background-color: chocolate;
+            display: block;
+        }
+
+        img {
+            height: 100px;
+            width: 100px;
+        }
+
+        img:hover {
+            /* height: 200px;
+            width: 200px; */
+            margin: 30px;
+
+        }
+
+        input:focus {
+            background-color: chartreuse;
+        }
+
+        /* .btn:hover+p {
+            display: block;
+        } */
+
+        p {
+            display: none;
+        }
+
+        .btn-grad {
+            background-image: linear-gradient(to right, #1D2B64 0%, #F8CDDA 51%, #1D2B64 100%);
+        }
+
+        .btn-grad {
+            margin: 10px;
+            padding: 15px 45px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;
+            box-shadow: 0 0 20px #eee;
+            border-radius: 10px;
+            display: block;
+            outline: none;
+            border: none;
+        }
+
+        .btn-grad:hover {
+            background-position: right center;
+            color: #fff;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <p>Lorem ipsum dolor sit amet.</p> -->
+    <button>Register</button>
+    <img src="./Assests/image-1.jpg">
+
+    <input type="text" placeholder="Enter the text">
+
+
+    <button class="btn-grad">Delete</button>
+    <p>Lorem ipsum dolor sit amet.</p>
+
+</body>
+
+</html>

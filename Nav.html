@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            height: 1000px;
+        }
+        .top-nav{
+            display: flex;
+            background: rgb(151, 162, 29);
+            justify-content: space-evenly;
+            align-items: center;
+            position: sticky;
+            gap: 25px;
+            top: 0;
+        }
+        .left{
+            display: flex;
+            gap: 25px;
+            align-items: center;
+        }
+        .right{
+            display: flex;
+            gap: 30px;
+            align-items: center;
+            
+        }
+        button{
+            padding: 8px 16px;      
+            font-size: 15px;        
+            border: none; 
+            border-radius: 2px;     
+            background-color: lightgreen;
+        }
+        .course-nav {
+            display: flex;
+            background-color: black;
+            justify-content: space-evenly;
+            align-items: center;
+            color: white;
+            padding: 12px 15px;
+            font-size: 14px;
+            cursor: pointer;
+        }
+        h5:hover {
+            background-color: #04AA6D;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <div class="top-nav">
+        <div class="left">
+            <img src="./Assests/favicon-32x32.png">
+            <h4>Tutorials</h4>
+            <h4>Referances</h4>
+            <h4>Exercises</h4>
+            <h4>Certificates</h4>
+        </div>
+        <div class="search">
+            <input type="text" placeholder="Search...">
+        </div>
+        <div class="right">
+            <h4>Bootcamps</h4>
+            <h4>Spaces</h4>
+            <h4>Teachers</h4>
+            <h4>Upgrad</h4>
+            <h4>Get Certified</h4>
+            <button>Sign In</button>
+        </div>
+    </div>
+    <div class="course-nav">
+
+        <h5 >HTML</h5>
+        <h5 >CSS</h5>
+        <h5 >JAVASCRIPT</h5>
+        <h5 >SQL</h5>
+        <h5 >PYTHON</h5>
+        <h5>JAVA</h5>
+        <h5 >PHP</h5>
+        <h5 >BOOTSTRAP</h5>
+        <h5 >REACT</h5>
+        <h5 >MYSQL</h5>
+        <h5 >JQUERY</h5>
+        <h5 >C</h5>
+        <h5 >C++</h5>
+        <h5 >C#</h5>
+        <h5 >W3.CSS</h5>
+        <h5 >HOW TO</h5>
+        <h5 >XML</h5>
+        <h5 >EXCEL</h5>
+        <h5 >DJANGO</h5>
+        <h5 >NUMPY</h5>
+    </div>
+</body>
+</html>

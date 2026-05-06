@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Layout</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Playfair Display', serif;
+        }
+        .container{
+            height: 100vh;
+            background: url(https://img.freepik.com/premium-photo/empty-restaurant-tables-with-vintage-design_1352884-36277.jpg?semt=ais_hybrid&w=740&q=80);
+            background-size: cover;
+            background-position: center;
+            color: white;
+        }
+        .navbar{
+            background-color: black;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+            position: relative;
+            top: 0px;
+            left: 0px;
+            gap: 30px;            
+        }
+        .nav-headings{
+            color:#ccc;
+            text-decoration: none;
+            margin-right: 30px;
+            padding: 12px 15px;
+            font-size: 14px;
+            display: inline-flex;
+            font-weight: bold;
+            gap: 50px;
+   
+        }
+        h4:hover{
+            background-color:#2bccf0;
+        }
+        .reserve-btn{
+            background-color: #d39e00;
+            border: none;
+            padding: 10px 25px;
+            color: white;
+            border-radius: 5px;
+        }
+        .main-content{
+            height: 90vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        #heading1{
+            font-size: 70px;
+            font-weight: 400;
+            margin-top: 25px;
+            margin-bottom: 15px;
+        }
+        #heading2{
+            margin-top: 25px;
+            margin-bottom: 15px;
+        }
+        .p1{
+            font-size: 18px;
+            opacity: 1.0;
+            margin-top: 25px;
+            margin-bottom: 15px;
+        }
+        .p2{
+            font-size: 18px;
+            opacity: 1.0;
+            margin-top: 25px;
+            margin-bottom: 15px;
+        }
+        .button{
+            padding: 25px 35px;
+            margin: 15px 20px;
+            font-size: 16px;
+            border-radius: 4px;
+            gap: 20px;
+        }
+        .btn-primary{
+            background-color: #d39e00;
+            border: 1px solid #ffffff;
+            color: white;
+            margin: 20px;
+            padding: 10px 25px;
+            gap: 70px;
+        }
+        .btn-secondary{
+            background-color: #d39e00;
+            border: 1px solid #ffffff;
+            color: white;
+            margin: 20px;
+            padding: 10px 25px;
+            gap: 70px;
+        }
+        button:hover{
+            background-color: #2bccf0;
+        }
+        .footer-content{
+            background-size: cover;
+            text-align: center;
+            background-color: black;
+            color: #ffffff;
+        }
+        
+    </style>
+</head>
+<body>
+    <header class="container">
+        
+        <section class="hero-section">
+    
+            <nav class="navbar">
+                <div>
+                    <img class="img1" height="50px" width="50px" src="./Assets/images/53382fd40526749526974c7968bb9958546a.jpg">
+                </div>
+
+                <div class="nav-headings">
+                    <h4>Home</h4>
+                    <h4>About us</h4>
+                    <h4>Menu</h4>
+                    <h4>Locations</h4>
+                </div>
+
+                <div class="search">
+                    <input type="text" placeholder="Search...">
+                </div>
+        
+                <button class="reserve-btn">Reserve</button>
+        
+            </nav>
+
+        </section>
+
+        <main class="main-content">
+
+            <section class="text-center">
+                
+                <h1 id="heading1">India Cafe</h1>
+                <h2 id="heading2">Our Indian Dishes</h2>
+                <p class="p1">Enjoy the unique flavours of our dishes</p>
+                <p class="p2">The spot for authentic cuisine and great customer service</p>
+        
+                <div class="button">
+                    <button class="btn-primary">Book a table</button>
+                    <button class="btn-secondary">Order online</button>
+                </div>
+
+            </section>
+
+        </main>
+
+    </header>
+
+    <footer class="footer-content">
+        <p>A modern twist on classic Indian flavors. Enjoy artisanal brews, gourmet snacks, and a vibrant atmosphere, right in the
+        heart of the city.</p>
+        <p">123, Heritage Road, New Delhi | +91 99999-00000 | cafe@email.com
+        Open Daily: 9 AM - 10 PM
+        Social Media Icons (FB/IG/X)</p>
+    </footer>
+</body>
+</html>
