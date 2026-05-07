@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Digital Khata</title>
+<link rel="stylesheet" href="index.css">
+<script src="index.js"></script>
+</head>
+<body>
+
+<div class="container">
+
+  <!-- Sidebar -->
+  <div class="sidebar">
+    <h2>Customers</h2>
+
+    <ul id="customerList"></ul>
+
+    <div class="add-box">
+      <input type="text" id="customerName" placeholder="Enter name">
+      <button onclick="addCustomer()">Add</button>
+    </div>
+  </div>
+
+  <!-- Main -->
+  <div class="main">
+    <h2 id="selectedCustomer">Select Customer</h2>
+
+    <div class="form">
+      <input type="number" id="amount" placeholder="Amount">
+      <input type="text" id="note" placeholder="Note">
+
+      <div class="btns">
+        <button class="credit" onclick="addCredit()">+ Udhaar</button>
+        <button class="payment" onclick="addPayment()">- Payment</button>
+      </div>
+    </div>
+
+    <h3>Balance: ₹<span id="balance">0</span></h3>
+
+    <ul id="history"></ul>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

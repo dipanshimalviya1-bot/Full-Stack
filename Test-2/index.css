@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    height: 100vh;
+    background: url(https://restaurantindia.s3.ap-south-1.amazonaws.com/s3fs-public/2026-02/Untitled%20design_11zon.png);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.nav {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    gap: 30px;
+}
+
+.nav-headings {
+    color: #ccc;
+    text-decoration: none;
+    margin-right: 30px;
+    padding: 8px 10px;
+    font-size: 14px;
+    display: inline-flex;
+    font-weight: bold;
+    gap: 50px;
+}
+
+h4:hover {
+    background-color: #2bccf0;
+}
+
+.main-content {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#heading1 {
+    font-size: 70px;
+    font-weight: 400;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+#heading2 {
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.p1 {
+    font-size: 18px;
+    opacity: 1.0;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.p2 {
+    font-size: 18px;
+    opacity: 1.0;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.button {
+    padding: 25px 35px;
+    margin: 15px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    gap: 20px;
+}
+
+.btn-primary {
+    background-color: #d39e00;
+    border: 1px solid #ffffff;
+    color: white;
+    margin: 20px;
+    padding: 10px 25px;
+    gap: 70px;
+}
+
+.btn-secondary {
+    background-color: #d39e00;
+    border: 1px solid #ffffff;
+    color: white;
+    margin: 20px;
+    padding: 10px 25px;
+    gap: 70px;
+}
+
+button:hover {
+    background-color: #2bccf0;
+}
